@@ -171,77 +171,77 @@
         "tag": "apple_ip",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geoip/apple.srs",
+        "url": "https://ghfast.top/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geoip/apple.srs",
         "download_detour": "direct"
       },
       {
         "tag": "apple_domain",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geosite/apple.srs",
+        "url": "https://ghfast.top/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geosite/apple.srs",
         "download_detour": "direct"
       },
       {
         "tag": "cn_ip",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geoip/cn.srs",
+        "url": "https://ghfast.top/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geoip/cn.srs",
         "download_detour": "direct"
       },
       {
         "tag": "cn_domain",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geosite/cn.srs",
+        "url": "https://ghfast.top/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geosite/cn.srs",
         "download_detour": "direct"
       },
       {
         "tag": "google_ip",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geoip/google.srs",
+        "url": "https://ghfast.top/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geoip/google.srs",
         "download_detour": "direct"
       },
       {
         "tag": "google_domain",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geosite/google.srs",
+        "url": "https://ghfast.top/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geosite/google.srs",
         "download_detour": "direct"
       },
       {
         "tag": "openai_domain",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/openai.srs",
+        "url": "https://ghfast.top/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/openai.srs",
         "download_detour": "direct"
       },
       {
         "tag": "proxy_domain",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/geolocation-!cn.srs",
+        "url": "https://ghfast.top/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/geolocation-!cn.srs",
         "download_detour": "direct"
       },
       {
         "tag": "telegram_ip",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geoip/telegram.srs",
+        "url": "https://ghfast.top/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geoip/telegram.srs",
         "download_detour": "direct"
       },
       {
         "tag": "telegram_domain",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geosite/telegram.srs",
+        "url": "https://ghfast.top/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geosite/telegram.srs",
         "download_detour": "direct"
       },
       {
         "tag": "youtube_domain",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geosite/youtube.srs",
+        "url": "https://ghfast.top/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geosite/youtube.srs",
         "download_detour": "direct"
       }
     ],
@@ -253,14 +253,12 @@
       "tag": "proxy",
       "type": "selector",
       "outbounds": [
-	    "all",
+        "all",
         "all-auto",
-		"kr",
-        "kr-auto",
-        "hk",
+		"hk",
         "hk-auto",
-        "tw",
-        "tw-auto",
+        "kr",
+        "kr-auto",
         "jp",
         "jp-auto",
         "sg",
@@ -271,18 +269,16 @@
       ],
       "default": "all-auto"
     },
-	{
-      "tag": "youtube",
+    {
+      "tag": "google",
       "type": "selector",
       "outbounds": [
         "proxy",
         "direct",
-		"kr",
-        "kr-auto",
         "hk",
         "hk-auto",
-        "tw",
-        "tw-auto",
+        "kr",
+        "kr-auto",
         "jp",
         "jp-auto",
         "sg",
@@ -295,17 +291,15 @@
       "default": "proxy"
     },
     {
-      "tag": "google",
+      "tag": "apple",
       "type": "selector",
       "outbounds": [
         "proxy",
         "direct",
-		"kr",
-        "kr-auto",
         "hk",
         "hk-auto",
-        "tw",
-        "tw-auto",
+        "kr",
+        "kr-auto",
         "jp",
         "jp-auto",
         "sg",
@@ -315,7 +309,7 @@
         "all",
         "all-auto"
       ],
-      "default": "proxy"
+      "default": "direct"
     },
     {
       "tag": "telegram",
@@ -323,12 +317,31 @@
       "outbounds": [
         "proxy",
         "direct",
-		"kr",
-        "kr-auto",
         "hk",
         "hk-auto",
-        "tw",
-        "tw-auto",
+        "kr",
+        "kr-auto",
+        "jp",
+        "jp-auto",
+        "sg",
+        "sg-auto",
+        "us",
+        "us-auto",
+        "all",
+        "all-auto"
+      ],
+      "default": "proxy"
+    },
+    {
+      "tag": "youtube",
+      "type": "selector",
+      "outbounds": [
+        "proxy",
+        "direct",
+        "hk",
+        "hk-auto",
+        "kr",
+        "kr-auto",
         "jp",
         "jp-auto",
         "sg",
@@ -346,12 +359,10 @@
       "outbounds": [
         "proxy",
         "direct",
-		"kr",
-        "kr-auto",
         "hk",
         "hk-auto",
-        "tw",
-        "tw-auto",
+        "kr",
+        "kr-auto",
         "jp",
         "jp-auto",
         "sg",
@@ -363,41 +374,16 @@
       ],
       "default": "proxy"
     },
-	{
-      "tag": "apple",
-      "type": "selector",
-      "outbounds": [
-        "proxy",
-        "direct",
-		"kr",
-        "kr-auto",
-        "hk",
-        "hk-auto",
-        "tw",
-        "tw-auto",
-        "jp",
-        "jp-auto",
-        "sg",
-        "sg-auto",
-        "us",
-        "us-auto",
-        "all",
-        "all-auto"
-      ],
-      "default": "direct"
-    },
     {
       "tag": "cn",
       "type": "selector",
       "outbounds": [
         "proxy",
         "direct",
-		"kr",
-        "kr-auto",
         "hk",
         "hk-auto",
-        "tw",
-        "tw-auto",
+        "kr",
+        "kr-auto",
         "jp",
         "jp-auto",
         "sg",
@@ -415,12 +401,10 @@
       "outbounds": [
         "proxy",
         "direct",
-		"kr",
-        "kr-auto",
         "hk",
         "hk-auto",
-        "tw",
-        "tw-auto",
+        "kr",
+        "kr-auto",
         "jp",
         "jp-auto",
         "sg",
@@ -433,17 +417,12 @@
       "default": "proxy"
     },
     {
-      "tag": "kr",
-      "type": "selector",
-      "outbounds": []
-    },
-	{
       "tag": "hk",
       "type": "selector",
       "outbounds": []
     },
     {
-      "tag": "tw",
+      "tag": "kr",
       "type": "selector",
       "outbounds": []
     },
@@ -467,14 +446,6 @@
       "type": "selector",
       "outbounds": []
     },
-	{
-      "tag": "kr-auto",
-      "type": "urltest",
-      "outbounds": [],
-      "url": "https://www.gstatic.com/generate_204",
-      "interval": "1m",
-      "tolerance": 50
-    },
     {
       "tag": "hk-auto",
       "type": "urltest",
@@ -484,7 +455,7 @@
       "tolerance": 50
     },
     {
-      "tag": "tw-auto",
+      "tag": "kr-auto",
       "type": "urltest",
       "outbounds": [],
       "url": "https://www.gstatic.com/generate_204",
@@ -529,12 +500,10 @@
       "outbounds": [
         "direct",
         "proxy",
-		"kr",
-        "kr-auto",
         "hk",
         "hk-auto",
-        "tw",
-        "tw-auto",
+        "kr",
+        "kr-auto",
         "jp",
         "jp-auto",
         "sg",
@@ -578,7 +547,7 @@
     "clash_api": {
       "external_controller": "127.0.0.1:18181",
       "external_ui": "ui",
-      "external_ui_download_url": "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
+      "external_ui_download_url": "https://ghfast.top/https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
       "external_ui_download_detour": "direct"
     },
     "cache_file": {
