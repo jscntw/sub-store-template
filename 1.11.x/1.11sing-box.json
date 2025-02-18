@@ -263,8 +263,8 @@
         "jp-auto",
         "sg",
         "sg-auto",
-        "🇺🇸",
-        "🇺🇸-auto",
+        "us",
+        "us-auto",
         "direct"
       ],
       "default": "all-auto"
@@ -296,8 +296,8 @@
         "jp-auto",
         "sg",
         "sg-auto",
-        "🇺🇸",
-        "🇺🇸-auto",
+        "us",
+        "us-auto",
         "all",
         "all-auto"
       ],
@@ -317,8 +317,8 @@
         "jp-auto",
         "sg",
         "sg-auto",
-        "🇺🇸",
-        "🇺🇸-auto",
+        "us",
+        "us-auto",
         "all",
         "all-auto"
       ],
@@ -338,8 +338,8 @@
         "jp-auto",
         "sg",
         "sg-auto",
-        "🇺🇸",
-        "🇺🇸-auto",
+        "us",
+        "us-auto",
         "all",
         "all-auto"
       ],
@@ -359,8 +359,8 @@
         "jp-auto",
         "sg",
         "sg-auto",
-        "🇺🇸",
-        "🇺🇸-auto",
+        "us",
+        "us-auto",
         "all",
         "all-auto"
       ],
@@ -380,8 +380,8 @@
         "jp-auto",
         "sg",
         "sg-auto",
-        "🇺🇸",
-        "🇺🇸-auto",
+        "us",
+        "us-auto",
         "all",
         "all-auto"
       ],
@@ -401,8 +401,8 @@
         "jp-auto",
         "sg",
         "sg-auto",
-        "🇺🇸",
-        "🇺🇸-auto",
+        "us",
+        "us-auto",
         "all",
         "all-auto"
       ],
@@ -422,8 +422,8 @@
         "jp-auto",
         "sg",
         "sg-auto",
-        "🇺🇸",
-        "🇺🇸-auto",
+        "us",
+        "us-auto",
         "all",
         "all-auto"
       ],
@@ -492,7 +492,7 @@
       "tolerance": 50
     },
     {
-      "tag": "🇺🇸-auto",
+      "tag": "us-auto",
       "type": "urltest",
       "outbounds": [],
       "url": "https://www.gstatic.com/generate_204",
@@ -513,8 +513,8 @@
         "jp-auto",
         "sg",
         "sg-auto",
-        "🇺🇸",
-        "🇺🇸-auto",
+        "us",
+        "us-auto",
         "all",
         "all-auto"
       ],
