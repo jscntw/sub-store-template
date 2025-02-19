@@ -177,84 +177,84 @@
         "type": "remote",
         "format": "source",
         "url": "https://gist.githubusercontent.com/jscntw/f49ffa838dbc2999aa70f0c8ff222c0b/raw/zdysite.json",
-        "download_detour": "direct"
+        "download_detour": "proxy"
       },
 	  {
         "tag": "apple_ip",
         "type": "remote",
         "format": "binary",
         "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geoip/apple.srs",
-        "download_detour": "direct"
+        "download_detour": "proxy"
       },
       {
         "tag": "apple_domain",
         "type": "remote",
         "format": "binary",
         "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geosite/apple.srs",
-        "download_detour": "direct"
+        "download_detour": "proxy"
       },
       {
         "tag": "cn_ip",
         "type": "remote",
         "format": "binary",
         "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geoip/cn.srs",
-        "download_detour": "direct"
+        "download_detour": "proxy"
       },
       {
         "tag": "cn_domain",
         "type": "remote",
         "format": "binary",
         "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geosite/cn.srs",
-        "download_detour": "direct"
+        "download_detour": "proxy"
       },
       {
         "tag": "google_ip",
         "type": "remote",
         "format": "binary",
         "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geoip/google.srs",
-        "download_detour": "direct"
+        "download_detour": "proxy"
       },
       {
         "tag": "google_domain",
         "type": "remote",
         "format": "binary",
         "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geosite/google.srs",
-        "download_detour": "direct"
+        "download_detour": "proxy"
       },
       {
         "tag": "openai_domain",
         "type": "remote",
         "format": "binary",
         "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/openai.srs",
-        "download_detour": "direct"
+        "download_detour": "proxy"
       },
       {
         "tag": "proxy_domain",
         "type": "remote",
         "format": "binary",
         "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/geolocation-!cn.srs",
-        "download_detour": "direct"
+        "download_detour": "proxy"
       },
       {
         "tag": "telegram_ip",
         "type": "remote",
         "format": "binary",
         "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geoip/telegram.srs",
-        "download_detour": "direct"
+        "download_detour": "proxy"
       },
       {
         "tag": "telegram_domain",
         "type": "remote",
         "format": "binary",
         "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geosite/telegram.srs",
-        "download_detour": "direct"
+        "download_detour": "proxy"
       },
       {
         "tag": "youtube_domain",
         "type": "remote",
         "format": "binary",
         "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo-lite/geosite/youtube.srs",
-        "download_detour": "direct"
+        "download_detour": "proxy"
       }
     ],
     "final": "final",
@@ -275,8 +275,8 @@
         "jp-auto",
         "sg",
         "sg-auto",
-        "US",
-        "US-auto",
+        "us",
+        "us-auto",
         "kr",
         "kr-auto",
         "direct"
@@ -310,8 +310,8 @@
         "jp-auto",
         "sg",
         "sg-auto",
-        "US",
-        "US-auto",
+        "us",
+        "us-auto",
         "kr",
         "kr-auto",
         "all",
@@ -333,8 +333,8 @@
         "jp-auto",
         "sg",
         "sg-auto",
-        "US",
-        "US-auto",
+        "us",
+        "us-auto",
         "kr",
         "kr-auto",
         "all",
@@ -356,8 +356,8 @@
         "jp-auto",
         "sg",
         "sg-auto",
-        "US",
-        "US-auto",
+        "us",
+        "us-auto",
         "kr",
         "kr-auto",
         "all",
@@ -379,8 +379,8 @@
         "jp-auto",
         "sg",
         "sg-auto",
-        "US",
-        "US-auto",
+        "us",
+        "us-auto",
         "kr",
         "kr-auto",
         "all",
@@ -402,8 +402,8 @@
         "jp-auto",
         "sg",
         "sg-auto",
-        "US",
-        "US-auto",
+        "us",
+        "us-auto",
         "kr",
         "kr-auto",
         "all",
@@ -425,8 +425,8 @@
         "jp-auto",
         "sg",
         "sg-auto",
-        "US",
-        "US-auto",
+        "us",
+        "us-auto",
         "kr",
         "kr-auto",
         "all",
@@ -448,8 +448,8 @@
         "jp-auto",
         "sg",
         "sg-auto",
-        "US",
-        "US-auto",
+        "us",
+        "us-auto",
         "kr",
         "kr-auto",
         "all",
@@ -471,8 +471,8 @@
         "jp-auto",
         "sg",
         "sg-auto",
-        "US",
-        "US-auto",
+        "us",
+        "us-auto",
         "kr",
         "kr-auto",
         "all",
@@ -501,7 +501,7 @@
       "outbounds": []
     },
     {
-      "tag": "US",
+      "tag": "us",
       "type": "selector",
       "outbounds": []
     },
@@ -543,7 +543,7 @@
       "tolerance": 50
     },
     {
-      "tag": "US-auto",
+      "tag": "us-auto",
       "type": "urltest",
       "outbounds": [],
       "url": "https://www.gstatic.com/generate_204",
@@ -572,8 +572,8 @@
         "jp-auto",
         "sg",
         "sg-auto",
-        "US",
-        "US-auto",
+        "us",
+        "us-auto",
         "kr",
         "kr-auto",
         "all",
@@ -614,7 +614,7 @@
       "external_controller": "127.0.0.1:18181",
       "external_ui": "ui",
       "external_ui_download_url": "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
-      "external_ui_download_detour": "direct"
+      "external_ui_download_detour": "proxy"
     },
     "cache_file": {
       "enabled": true,
